@@ -16,7 +16,7 @@ module PapertrailRails
     PapertrailRails::Request.get("/events/search.json?q=status=", query)
   end
 
-  def search(query)
+  def self.search(query)
     PapertrailRails::Request.get('/events/search.json?q=', query)
   end
 end
