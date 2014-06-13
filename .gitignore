@@ -1,5 +1,6 @@
 doc
 *.gem
+*.gemspec
 *.iml
 .bundle
 Gemfile.lock

@@ -1,5 +1,5 @@
-# require 'papertrail_rails/request'
-require_relative 'papertrail_rails/request'
+require 'papertrail_rails/request'
+
 module PapertrailRails
   @api_key = nil
 
